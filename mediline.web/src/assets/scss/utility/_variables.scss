@@ -1,0 +1,39 @@
+/* 
+    This CSS has variables which can be accessed and used in other CSS files.
+*/
+
+// Spacing variables
+$base-padding: 0.25rem;
+$base-margin: 0.25rem;
+$base-gap: 0.25rem;
+
+// Sizing variables
+$base-size: 1rem;
+$increment: 0.25;
+$max: 10;
+
+// Border variables
+$base-border-thickness: 1px;
+$base-border-radius: 20px;
+
+// Font variables
+$base-font-size: 0.25rem;
+$base-font-weight: 400;
+
+$font-weight-thin: 100;
+$font-weight-extralight: 200;
+$font-weight-light: 300;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-extrabold: 800;
+$font-weight-black: 900;
+
+// Shadow variables
+$base-shadow: 5px;
+
+// Gradient list variables
+$gradient-white: rgba(255, 255, 255, 1) 0%, rgba(240, 240, 240, 0.5) 100%;
+$gradient-blue: rgba(170, 225, 255, 0.6) 0%, rgba(230, 245, 255, 1) 100%;
+$gradient-light: rgba(255, 255, 255, 0.35) 0%, rgba(220, 220, 220, 0.25) 60%;
+$gradient-dark: var(--clr-dark-100) 0%, var(--clr-dark-200) 50%, var(--clr-dark-100) 100%;
