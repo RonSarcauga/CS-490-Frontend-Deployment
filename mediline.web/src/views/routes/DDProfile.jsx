@@ -147,7 +147,7 @@ function DDProfile() {
         if (updatedExerciseData) {
             setExerciseData(updatedExerciseData);
         }
-
+        fetchTabData("tab4");
         handleCloseModal();
     };
 
